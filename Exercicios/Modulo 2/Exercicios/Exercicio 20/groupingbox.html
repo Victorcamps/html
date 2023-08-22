@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRUPANDO AS CAIXAS</title>
+    <style>
+        body{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        .titulo{
+            background-color: blueviolet;
+            text-align: center;
+            padding: 5px;
+            border: 2px solid black;
+
+        }
+
+        nav{
+            background-color: lightgray;
+            text-align: center;
+            padding: 3px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+        }
+
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(47, 211, 252);
+        }
+
+        .link1:visited{
+            color: red;
+        }
+
+        #Principais{
+            padding: 10px;
+            margin: 10px 0px 10px 0px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.336);
+        }
+
+        #Principais > h2{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        #secundarias{
+            background-color: white;
+            margin: 10px 0px;
+            padding: 10px;
+        }
+
+        article > h3{
+            text-align: center;
+        }
+
+        aside{
+            background-color: lightgray;
+            padding: 2px;
+            text-align: center;
+            margin: 10px 0px;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            padding: 5px;
+            color: white
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Jornalismo de primeira</h1>
+        <Nav>
+            <a href="https://www.youtube.com/channel/UCXwjw0brFL4-BM-JIk0mZ9w" target="_blank" class="link1">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </Nav>
+    </header>
+    <main>
+        <section id="Principais">
+            <h2>CORINTHIANS JOGA AMANHÃ</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptatum aut vel nobis quisquam culpa sint, veniam iusto consequuntur natus porro iure aperiam. Odio incidunt, id ea vel delectus velit.</p>
+
+        </section>
+        <section id="secundarias">
+            <article>
+                <h3>CORINTHIANS GRANDE</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci eaque a ad facilis nulla voluptatem fugiat maiores magni dicta quis error explicabo porro vero aperiam fugit aut, ex corrupti.
+                <aside>
+                    Artigo escrito por dike
+                </aside>
+            </article>
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>Site feito por Starmike</p>
+    </footer>
+</body>
+</html>

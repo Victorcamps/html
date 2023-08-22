@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 
+Em html é id = em CSS é #  ID É UNICO 
+Em html é class = em CSS é . CLASS PODE TER MAIS DE UM ITEM USANDO 
+É POSSIVEL COLOCAR MAIS DE UMA CLASSE EM UM ITEM E TAMBÉM UM ID E UMA CLASS MAS O ID SOBREPÕE
+*/
+
+body{
+    background-color: rgb(170, 248, 170);
+}
+
+.second{
+    color: red;
+}
+
+.tri{
+    color: blue;
+}
+
+h1{
+    color: rgb(17, 172, 17);
+}
+
+#principal{
+    text-align: center;
+}
+
+h2{
+    color: rgb(27, 87, 27);;
+}
+

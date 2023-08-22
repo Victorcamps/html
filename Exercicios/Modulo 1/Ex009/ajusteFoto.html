@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajuste de imagem</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Abra esse site em varios dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="fotos/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="fotos/foto-m.png" type="image/png">
+        <img src="fotos/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio src="midia/Ventania - Cogumelos Azuis.mp3" controls></audio>
+
+    <h1>Esse video está hospedado localmente no meu servidor</h1>
+    <video src="midia/meuvideo.mp4" width="560px" controls loop></video>
+
+    <h1>Inserindo videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oyizKPUiVMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

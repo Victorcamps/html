@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h1{
+    width: 435px;
+    height: 50px;
+    background-color: rgb(238, 206, 211);
+
+    border: 10px double aqua;
+    
+    padding: 10px 10px 10px 10px; /* SENTIDO HORARIO */
+
+    margin: auto; /* PARA DEIXAR A CAIXA NO MEIO margin:auto; */
+
+    outline: 5px dashed coral;
+
+}
